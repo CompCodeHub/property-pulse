@@ -1,4 +1,5 @@
 import "@/assets/styles/globals.css";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 // Sets metadata for the entire application
@@ -14,6 +15,7 @@ const MainLayout = ({ children }) => {
       <body>
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
