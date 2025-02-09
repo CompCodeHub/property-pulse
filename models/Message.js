@@ -1,4 +1,5 @@
 import { Schema, model, models } from "mongoose";
+import Property from "./Property";
 
 const MessageSchema = new Schema(
   {
